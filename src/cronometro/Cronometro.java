@@ -1,4 +1,4 @@
-package cronometre;
+package cronometro;
 
 import java.awt.EventQueue;
 
@@ -22,7 +22,7 @@ import java.io.IOException;
 import java.awt.Toolkit;
 import java.awt.Cursor;
 
-public class Cronometre {
+public class Cronometro {
 
 	private JFrame frame;
 	private javax.swing.Timer timer;
@@ -36,7 +36,7 @@ public class Cronometre {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					Cronometre window = new Cronometre();
+					Cronometro window = new Cronometro();
 					window.frame.setVisible(true);
 				} catch (Exception e) {
 					e.printStackTrace();
@@ -48,7 +48,7 @@ public class Cronometre {
 	/**
 	 * Create the application.
 	 */
-	public Cronometre() {
+	public Cronometro() {
 		initialize();
 	}
 
@@ -63,10 +63,10 @@ public class Cronometre {
 		frame.setCursor(Cursor.getPredefinedCursor(Cursor.DEFAULT_CURSOR));
 		frame.setForeground(new Color(204, 204, 204));
 		frame.setBackground(new Color(204, 204, 204));
-		frame.setIconImage(Toolkit.getDefaultToolkit().getImage(Cronometre.class.getResource("/font/cronometro.png")));
+		frame.setIconImage(Toolkit.getDefaultToolkit().getImage(Cronometro.class.getResource("/font/cronometro.png")));
 		frame.setBounds(100, 100, 600, 300);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		frame.setTitle("Cronometre");
+		frame.setTitle("Cronometro Digital");
 		frame.getContentPane().setLayout(new BorderLayout(0, 0));
 		
 		JPanel panel = new JPanel();
