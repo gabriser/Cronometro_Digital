@@ -1,4 +1,4 @@
-# java_cronometro
+# Cronometro_Digital
 App de cronometro digital hecha Java y Swing
 
 ## Descripción
