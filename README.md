@@ -37,4 +37,4 @@ El cronometro en funcionamiento con 3 botones:
 ## Agradecimientos
 
 - **Cronometro Digital** (Logotipo) : Creado por Gabriel Serrat Espejo (yo).
-- **True Type Fonts: DIGITAL-7 Font** : [www.styleseven.com](www.styleseven.com), [Freeware license](src/font/readme.txt).
+- **True Type Fonts: DIGITAL-7 Font** : [www.styleseven.com](https://www.styleseven.com), [Freeware license](src/font/readme.txt).
